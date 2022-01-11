@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+}
+
+.playground {
+  overflow:scroll;
+}
+
+h4 { 
+  text-align: center;
+}
+
+#dog-talk {
+  text-align: left;
+  transform: rotate(45deg);
+}
+
+#cat-talk {
+  text-align: right;
+  transform: rotate(-45deg);
+}
