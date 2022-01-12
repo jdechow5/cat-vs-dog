@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="./Cat V Dog_files/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./Cat V Dog_files/styles.css" rel="stylesheet" type="text/css">
+  <script src="./Cat V Dog_files/jquery-3.6.0.js"></script>
+  <script src="./Cat V Dog_files/scripts.js"></script>
+  <title>Cat V Dog</title>
+</head>
+
+<body data-feedly-mini="yes" data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="display-4">
+          <h4 class="head-title">Dog</h4>
+          <img src="./Cat V Dog_files/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" id="dog-image" alt="Photo of a dog">
+        </div>
+      </div>
+      <div class="col-2 playground">
+        <div class="display-4">
+          <div id="dog-talk"><h6>WOOF</h6><h6>WOOF</h6><h6>WOOF</h6><h6>WOOF</h6><h6>WOOF</h6><h6>WOOF</h6><h6>WOOF</h6></div>
+        </div>
+      </div>
+      <div class="col-2 playground">
+        <div class="display-4">
+          <div id="cat-talk"><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6><h6>MEOW</h6></div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="display-4">
+          <h4 class="head-title">Cat</h4>
+          <img src="./Cat V Dog_files/cute-photos-of-cats-curled-up-sleeping-1593184773.jpg" id="cat-image" alt="Photo of a cat">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<div id="feedly-mini" title="feedly Mini tookit"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
